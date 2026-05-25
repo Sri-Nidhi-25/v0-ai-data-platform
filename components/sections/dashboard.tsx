@@ -8,11 +8,9 @@ import { Badge } from '@/components/ui/badge'
 import {
   searchJobs,
   getUniqueSkills,
-  getUniqueCities,
-  getUniqueStates,
+  getUniqueLocations,
   getUniqueExperienceLevels,
   getUniqueEmploymentTypes,
-  getUniqueRoleCategories,
   getUniqueSourceTypes,
   type JobRecord,
 } from '@/lib/data'
@@ -34,19 +32,17 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
   const [viewMode, setViewMode] = useState<'grid' | 'table'>('grid')
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedSkills, setSelectedSkills] = useState<string[]>([])
-  const [selectedCities, setSelectedCities] = useState<string[]>([])
+  const [selectedLocations, setSelectedLocations] = useState<string[]>([])
   const [selectedExperience, setSelectedExperience] = useState<string[]>([])
   const [selectedEmployment, setSelectedEmployment] = useState<string[]>([])
-  const [selectedRoles, setSelectedRoles] = useState<string[]>([])
   const [selectedSources, setSelectedSources] = useState<string[]>([])
   const [showFilters, setShowFilters] = useState(false)
 
   // Get filter options
   const skills = useMemo(() => getUniqueSkills(), [])
-  const cities = useMemo(() => getUniqueCities(), [])
+  const locations = useMemo(() => getUniqueLocations(), [])
   const experienceLevels = useMemo(() => getUniqueExperienceLevels(), [])
   const employmentTypes = useMemo(() => getUniqueEmploymentTypes(), [])
-  const roleCategories = useMemo(() => getUniqueRoleCategories(), [])
   const sourceTypes = useMemo(() => getUniqueSourceTypes(), [])
 
   // Search and filter
@@ -54,36 +50,32 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
     return searchJobs({
       query: searchQuery,
       skills: selectedSkills,
-      cities: selectedCities,
+      locations: selectedLocations,
       experience_levels: selectedExperience,
       employment_types: selectedEmployment,
-      role_categories: selectedRoles,
       source_types: selectedSources,
     })
   }, [
     searchQuery,
     selectedSkills,
-    selectedCities,
+    selectedLocations,
     selectedExperience,
     selectedEmployment,
-    selectedRoles,
     selectedSources,
   ])
 
   const activeFiltersCount =
     selectedSkills.length +
-    selectedCities.length +
+    selectedLocations.length +
     selectedExperience.length +
     selectedEmployment.length +
-    selectedRoles.length +
     selectedSources.length
 
   const clearAllFilters = () => {
     setSelectedSkills([])
-    setSelectedCities([])
+    setSelectedLocations([])
     setSelectedExperience([])
     setSelectedEmployment([])
-    setSelectedRoles([])
     setSelectedSources([])
     setSearchQuery('')
   }
@@ -205,28 +197,28 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
                 </div>
               </div>
 
-              {/* Cities Filter */}
+              {/* Locations Filter */}
               <div className="space-y-3">
-                <p className="font-semibold text-sm">Cities</p>
+                <p className="font-semibold text-sm">Locations</p>
                 <div className="space-y-2">
-                  {cities.map((city) => (
-                    <label key={city} className="flex items-center gap-2 cursor-pointer">
+                  {locations.map((location) => (
+                    <label key={location} className="flex items-center gap-2 cursor-pointer">
                       <input
                         type="checkbox"
-                        checked={selectedCities.includes(city)}
+                        checked={selectedLocations.includes(location)}
                         onChange={(e) => {
                           if (e.target.checked) {
-                            setSelectedCities([...selectedCities, city])
+                            setSelectedLocations([...selectedLocations, location])
                           } else {
-                            setSelectedCities(
-                              selectedCities.filter((c) => c !== city)
+                            setSelectedLocations(
+                              selectedLocations.filter((l) => l !== location)
                             )
                           }
                         }}
                         className="rounded border-border"
                       />
                       <span className="text-sm text-muted-foreground">
-                        {city}
+                        {location}
                       </span>
                     </label>
                   ))}
@@ -289,33 +281,7 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
                 </div>
               </div>
 
-              {/* Role Category Filter */}
-              <div className="space-y-3">
-                <p className="font-semibold text-sm">Role Category</p>
-                <div className="space-y-2">
-                  {roleCategories.map((role) => (
-                    <label key={role} className="flex items-center gap-2 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={selectedRoles.includes(role)}
-                        onChange={(e) => {
-                          if (e.target.checked) {
-                            setSelectedRoles([...selectedRoles, role])
-                          } else {
-                            setSelectedRoles(
-                              selectedRoles.filter((r) => r !== role)
-                            )
-                          }
-                        }}
-                        className="rounded border-border"
-                      />
-                      <span className="text-sm text-muted-foreground">
-                        {role}
-                      </span>
-                    </label>
-                  ))}
-                </div>
-              </div>
+
 
               {/* Source Type Filter */}
               <div className="space-y-3">
@@ -365,7 +331,7 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
                       </h3>
                       <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                         <MapPin className="w-4 h-4" />
-                        {job.city}, {job.state}
+                        {job.location || 'Not specified'}
                       </div>
                     </div>
 
@@ -460,7 +426,7 @@ export function Dashboard({ onSelectJob }: DashboardProps) {
                           <p className="font-medium">{job.job_title}</p>
                         </td>
                         <td className="px-6 py-4 text-sm text-muted-foreground">
-                          {job.city}, {job.state}
+                          {job.location || 'Not specified'}
                         </td>
                         <td className="px-6 py-4 text-sm">
                           <Badge variant="outline">

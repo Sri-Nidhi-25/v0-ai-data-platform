@@ -4,6 +4,8 @@ import { useState, useRef } from 'react'
 import { Hero } from '@/components/sections/hero'
 import { Showcase } from '@/components/sections/showcase'
 import { Pipeline } from '@/components/sections/pipeline'
+import { AccuracyShowcase } from '@/components/sections/accuracy-showcase'
+import { TransformationGallery } from '@/components/sections/transformation-gallery'
 import { Analytics } from '@/components/sections/analytics'
 import { Dashboard } from '@/components/sections/dashboard'
 import { DetailModal } from '@/components/sections/detail-modal'
@@ -26,6 +28,12 @@ export default function Home() {
 
       {/* Showcase Section */}
       <Showcase />
+
+      {/* Accuracy & Trust Section */}
+      <AccuracyShowcase />
+
+      {/* Real Transformations Gallery */}
+      <TransformationGallery />
 
       {/* Pipeline Section */}
       <Pipeline />

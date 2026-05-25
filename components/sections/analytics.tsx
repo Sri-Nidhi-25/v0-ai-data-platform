@@ -85,22 +85,15 @@ export function Analytics() {
             <p className="text-sm font-medium text-muted-foreground mb-2">
               Locations
             </p>
-            <p className="text-4xl font-bold">{analytics.uniqueCities}</p>
-            <p className="text-xs text-muted-foreground mt-2">Cities</p>
+            <p className="text-4xl font-bold">{analytics.uniqueLocations}</p>
+            <p className="text-xs text-muted-foreground mt-2">Geographic</p>
           </Card>
           <Card className="p-6 border-border/50">
             <p className="text-sm font-medium text-muted-foreground mb-2">
-              States
+              Accuracy
             </p>
-            <p className="text-4xl font-bold">{analytics.uniqueStates}</p>
-            <p className="text-xs text-muted-foreground mt-2">Across India</p>
-          </Card>
-          <Card className="p-6 border-border/50">
-            <p className="text-sm font-medium text-muted-foreground mb-2">
-              Countries
-            </p>
-            <p className="text-4xl font-bold">{analytics.uniqueCountries}</p>
-            <p className="text-xs text-muted-foreground mt-2">Regions</p>
+            <p className="text-4xl font-bold">{analytics.accuracy}%</p>
+            <p className="text-xs text-muted-foreground mt-2">Extraction</p>
           </Card>
         </div>
 

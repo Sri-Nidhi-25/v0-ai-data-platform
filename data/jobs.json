@@ -1,0 +1,1567 @@
+[
+  {
+    "job_id": "JOB_001",
+    "slug": "software-engineer-chennai-job_001",
+    "display_title": "Software Engineer • Chennai • Junior",
+    "job_title": "Software Engineer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Text",
+    "source_file": "JOB_001.txt",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "tags": [
+      "Chennai",
+      "Junior",
+      "Python",
+      "SQL"
+    ],
+    "search_tokens": [
+      "chennai",
+      "full‑time",
+      "junior",
+      "python",
+      "software engineer",
+      "sql"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_002",
+    "slug": "backend-developer-remote-job_002",
+    "display_title": "Backend Developer • Remote • Mid",
+    "job_title": "Backend Developer",
+    "location": "Remote",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "Word Document",
+    "source_file": "JOB_002.docx",
+    "skills": [
+      "Express",
+      "Mongodb",
+      "Node.js"
+    ],
+    "tags": [
+      "Express",
+      "Mid",
+      "Mongodb",
+      "Node.js",
+      "Remote"
+    ],
+    "search_tokens": [
+      "backend developer",
+      "express",
+      "mid",
+      "mongodb",
+      "node.js",
+      "remote"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_004",
+    "slug": "data-analyst-mumbai-job_004",
+    "display_title": "Data Analyst • Mumbai • Junior",
+    "job_title": "Data Analyst",
+    "location": "Mumbai",
+    "experience_years": 1,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Text",
+    "source_file": "JOB_004.txt",
+    "skills": [
+      "Excel",
+      "Power Bi",
+      "SQL",
+      "Tableau"
+    ],
+    "tags": [
+      "Excel",
+      "Junior",
+      "Mumbai",
+      "Power Bi",
+      "SQL",
+      "Tableau"
+    ],
+    "search_tokens": [
+      "data analyst",
+      "excel",
+      "full‑time",
+      "junior",
+      "mumbai",
+      "power bi",
+      "sql",
+      "tableau"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_005",
+    "slug": "frontend-developer-bangalore-job_005",
+    "display_title": "Frontend Developer • Bangalore • Junior",
+    "job_title": "Frontend Developer",
+    "location": "Bangalore",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "HTML",
+    "source_file": "JOB_005.html",
+    "skills": [
+      "Html/Css",
+      "Javascript"
+    ],
+    "tags": [
+      "Bangalore",
+      "Html/Css",
+      "Javascript",
+      "Junior"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "frontend developer",
+      "full‑time",
+      "html/css",
+      "javascript",
+      "junior"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_006",
+    "slug": "machine-learning-engineer-remote-job_006",
+    "display_title": "Machine Learning Engineer • Remote • Mid",
+    "job_title": "Machine Learning Engineer",
+    "location": "Remote",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "PDF",
+    "source_file": "JOB_006.pdf",
+    "skills": [
+      "Python",
+      "Pytorch",
+      "Tensorflow"
+    ],
+    "tags": [
+      "Mid",
+      "Python",
+      "Pytorch",
+      "Remote",
+      "Tensorflow"
+    ],
+    "search_tokens": [
+      "machine learning engineer",
+      "mid",
+      "python",
+      "pytorch",
+      "remote",
+      "tensorflow"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_007",
+    "slug": "qa-automation-engineer-pune-job_007",
+    "display_title": "Qa Automation Engineer • Pune • Junior",
+    "job_title": "Qa Automation Engineer",
+    "location": "Pune",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Word Document",
+    "source_file": "JOB_007.docx",
+    "skills": [
+      "Java",
+      "Selenium",
+      "Test Automation Frameworks"
+    ],
+    "tags": [
+      "Java",
+      "Junior",
+      "Pune",
+      "Selenium",
+      "Test Automation Frameworks"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "java",
+      "junior",
+      "pune",
+      "qa automation engineer",
+      "selenium",
+      "test automation frameworks"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_008",
+    "slug": "data-scientist-bangalore-job_008",
+    "display_title": "Data Scientist • Bangalore • Mid",
+    "job_title": "Data Scientist",
+    "location": "Bangalore",
+    "experience_years": 4,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "HTML",
+    "source_file": "JOB_008.html",
+    "skills": [
+      "Deep Learning",
+      "Machine Learning",
+      "NLP",
+      "Python"
+    ],
+    "tags": [
+      "Bangalore",
+      "Deep Learning",
+      "Machine Learning",
+      "Mid",
+      "NLP",
+      "Python"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "data scientist",
+      "deep learning",
+      "full‑time",
+      "machine learning",
+      "mid",
+      "nlp",
+      "python"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_009",
+    "slug": "devops-engineer-pune-job_009",
+    "display_title": "Devops Engineer • Pune • Mid",
+    "job_title": "Devops Engineer",
+    "location": "Pune",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "PDF",
+    "source_file": "JOB_009.pdf",
+    "skills": [
+      "AWS",
+      "Ci/Cd",
+      "Kubernetes"
+    ],
+    "tags": [
+      "AWS",
+      "Ci/Cd",
+      "Kubernetes",
+      "Mid",
+      "Pune"
+    ],
+    "search_tokens": [
+      "aws",
+      "ci/cd",
+      "devops engineer",
+      "full‑time",
+      "kubernetes",
+      "mid",
+      "pune"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_021",
+    "slug": "full-stack-developer-bangalore-job_021",
+    "display_title": "Full Stack Developer • Bangalore • Junior",
+    "job_title": "Full Stack Developer",
+    "location": "Bangalore",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "PDF",
+    "source_file": "JOB_021.pdf",
+    "skills": [
+      "Express",
+      "Javascript",
+      "Mongodb",
+      "Node.js",
+      "React"
+    ],
+    "tags": [
+      "Bangalore",
+      "Express",
+      "Javascript",
+      "Junior",
+      "Mongodb",
+      "Node.js",
+      "React"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "express",
+      "full stack developer",
+      "full‑time",
+      "javascript",
+      "junior",
+      "mongodb",
+      "node.js",
+      "react"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_042",
+    "slug": "java-developer-hyderabad-job_042",
+    "display_title": "Java Developer • Hyderabad • Mid",
+    "job_title": "Java Developer",
+    "location": "Hyderabad",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Text",
+    "source_file": "JOB_042.md",
+    "skills": [
+      "Java",
+      "Microservices",
+      "Spring Boot"
+    ],
+    "tags": [
+      "Hyderabad",
+      "Java",
+      "Microservices",
+      "Mid",
+      "Spring Boot"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "hyderabad",
+      "java",
+      "java developer",
+      "microservices",
+      "mid",
+      "spring boot"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_013",
+    "slug": "python-developer-remote-job_013",
+    "display_title": "Python Developer • Remote • Junior",
+    "job_title": "Python Developer",
+    "location": "Remote",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Remote",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_13.png",
+    "skills": [
+      "Python"
+    ],
+    "tags": [
+      "Junior",
+      "Python",
+      "Remote"
+    ],
+    "search_tokens": [
+      "junior",
+      "python",
+      "python developer",
+      "remote"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_015",
+    "slug": "ml-engineer-job_015",
+    "display_title": "Ml Engineer • Mid",
+    "job_title": "Ml Engineer",
+    "location": null,
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_15.png",
+    "skills": [
+      "ML",
+      "Machine Learning",
+      "NLP",
+      "Python"
+    ],
+    "tags": [
+      "ML",
+      "Machine Learning",
+      "Mid",
+      "NLP",
+      "Python"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "machine learning",
+      "mid",
+      "ml",
+      "ml engineer",
+      "nlp",
+      "python"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_024",
+    "slug": "qa-automation-engineer-pune-job_024",
+    "display_title": "Qa Automation Engineer • Pune • Mid",
+    "job_title": "Qa Automation Engineer",
+    "location": "Pune",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_24.jpg",
+    "skills": [
+      "Java",
+      "Selenium",
+      "Testng"
+    ],
+    "tags": [
+      "Java",
+      "Mid",
+      "Pune",
+      "Selenium",
+      "Testng"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "java",
+      "mid",
+      "pune",
+      "qa automation engineer",
+      "selenium",
+      "testng"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_025",
+    "slug": "data-analyst-mumbai-job_025",
+    "display_title": "Data Analyst • Mumbai • Junior",
+    "job_title": "Data Analyst",
+    "location": "Mumbai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_25.png",
+    "skills": [
+      "SQL",
+      "Tableau"
+    ],
+    "tags": [
+      "Junior",
+      "Mumbai",
+      "SQL",
+      "Tableau"
+    ],
+    "search_tokens": [
+      "data analyst",
+      "full‑time",
+      "junior",
+      "mumbai",
+      "sql",
+      "tableau"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_029",
+    "slug": "devops-engineer-pune-job_029",
+    "display_title": "Devops Engineer • Pune • Mid",
+    "job_title": "Devops Engineer",
+    "location": "Pune",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_29.png",
+    "skills": [
+      "AWS",
+      "Ci/Cd",
+      "Docker",
+      "Kubernetes"
+    ],
+    "tags": [
+      "AWS",
+      "Ci/Cd",
+      "Docker",
+      "Kubernetes",
+      "Mid",
+      "Pune"
+    ],
+    "search_tokens": [
+      "aws",
+      "ci/cd",
+      "devops engineer",
+      "docker",
+      "full‑time",
+      "kubernetes",
+      "mid",
+      "pune"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_035",
+    "slug": "qa-tester-coimbatore-job_035",
+    "display_title": "Qa Tester • Coimbatore • Not Specified",
+    "job_title": "Qa Tester",
+    "location": "Coimbatore",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_35.png",
+    "skills": [
+      "Manual Testing"
+    ],
+    "tags": [
+      "Coimbatore",
+      "Manual Testing",
+      "Not Specified"
+    ],
+    "search_tokens": [
+      "coimbatore",
+      "full‑time",
+      "manual testing",
+      "not specified",
+      "qa tester"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_038",
+    "slug": "data-scientist-remote-job_038",
+    "display_title": "Data Scientist • Remote • Mid",
+    "job_title": "Data Scientist",
+    "location": "Remote",
+    "experience_years": 4,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_38.jpg",
+    "skills": [
+      "Deep Learning",
+      "Machine Learning",
+      "Python"
+    ],
+    "tags": [
+      "Deep Learning",
+      "Machine Learning",
+      "Mid",
+      "Python",
+      "Remote"
+    ],
+    "search_tokens": [
+      "data scientist",
+      "deep learning",
+      "machine learning",
+      "mid",
+      "python",
+      "remote"
+    ],
+    "method_used": "auto_verify_heuristic_update"
+  },
+  {
+    "job_id": "JOB_041",
+    "slug": "data-analyst-chennai-job_041",
+    "display_title": "Data Analyst • Chennai • Junior",
+    "job_title": "Data Analyst",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_41.jpg",
+    "skills": [
+      "Excel",
+      "SQL"
+    ],
+    "tags": [
+      "Chennai",
+      "Excel",
+      "Junior",
+      "SQL"
+    ],
+    "search_tokens": [
+      "chennai",
+      "data analyst",
+      "excel",
+      "full‑time",
+      "junior",
+      "sql"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_046",
+    "slug": "software-developer-java-chennai-job_046",
+    "display_title": "Software Developer Java • Chennai • Junior",
+    "job_title": "Software Developer Java",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_46.jpg",
+    "skills": [
+      "Java",
+      "Spring Framework"
+    ],
+    "tags": [
+      "Chennai",
+      "Java",
+      "Junior",
+      "Spring Framework"
+    ],
+    "search_tokens": [
+      "chennai",
+      "full‑time",
+      "java",
+      "junior",
+      "software developer java",
+      "spring framework"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_050",
+    "slug": "devops-engineer-pune-job_050",
+    "display_title": "Devops Engineer • Pune • Mid",
+    "job_title": "Devops Engineer",
+    "location": "Pune",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Image (OCR)",
+    "source_file": "JOB_50.png",
+    "skills": [
+      "AWS",
+      "Ci/Cd",
+      "Docker",
+      "Kubernetes"
+    ],
+    "tags": [
+      "AWS",
+      "Ci/Cd",
+      "Docker",
+      "Kubernetes",
+      "Mid",
+      "Pune"
+    ],
+    "search_tokens": [
+      "aws",
+      "ci/cd",
+      "devops engineer",
+      "docker",
+      "full‑time",
+      "kubernetes",
+      "mid",
+      "pune"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_003",
+    "slug": "frontend-developer-bangalore-job_003",
+    "display_title": "Frontend Developer • Bangalore • Not Specified",
+    "job_title": "Frontend Developer",
+    "location": "Bangalore",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "React"
+    ],
+    "tags": [
+      "Bangalore",
+      "Not Specified",
+      "React"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "frontend developer",
+      "full‑time",
+      "not specified",
+      "react"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_010",
+    "slug": "qa-tester-coimbatore-job_010",
+    "display_title": "Qa Tester • Coimbatore • Junior",
+    "job_title": "Qa Tester",
+    "location": "Coimbatore",
+    "experience_years": 1,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Manual Testing"
+    ],
+    "tags": [
+      "Coimbatore",
+      "Junior",
+      "Manual Testing"
+    ],
+    "search_tokens": [
+      "coimbatore",
+      "full‑time",
+      "junior",
+      "manual testing",
+      "qa tester"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_011",
+    "slug": "backend-developer-bangalore-job_011",
+    "display_title": "Backend Developer • Bangalore • Mid",
+    "job_title": "Backend Developer",
+    "location": "Bangalore",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Mongodb",
+      "Node.js"
+    ],
+    "tags": [
+      "Bangalore",
+      "Mid",
+      "Mongodb",
+      "Node.js"
+    ],
+    "search_tokens": [
+      "backend developer",
+      "bangalore",
+      "full‑time",
+      "mid",
+      "mongodb",
+      "node.js"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_012",
+    "slug": "data-analyst-chennai-job_012",
+    "display_title": "Data Analyst • Chennai • Not Specified",
+    "job_title": "Data Analyst",
+    "location": "Chennai",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Excel"
+    ],
+    "tags": [
+      "Chennai",
+      "Excel",
+      "Not Specified"
+    ],
+    "search_tokens": [
+      "chennai",
+      "data analyst",
+      "excel",
+      "full‑time",
+      "not specified"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_014",
+    "slug": "react-developer-job_014",
+    "display_title": "React Developer • Mid",
+    "job_title": "React Developer",
+    "location": null,
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "React"
+    ],
+    "tags": [
+      "Mid",
+      "React"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "mid",
+      "react",
+      "react developer"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_016",
+    "slug": "software-engineer-chennai-job_016",
+    "display_title": "Software Engineer • Chennai • Junior",
+    "job_title": "Software Engineer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "tags": [
+      "Chennai",
+      "Junior",
+      "Python",
+      "SQL"
+    ],
+    "search_tokens": [
+      "chennai",
+      "full‑time",
+      "junior",
+      "python",
+      "software engineer",
+      "sql"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_017",
+    "slug": "data-scientist-remote-job_017",
+    "display_title": "Data Scientist • Remote • Mid",
+    "job_title": "Data Scientist",
+    "location": "Remote",
+    "experience_years": 4,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Dl",
+      "ML",
+      "Python"
+    ],
+    "tags": [
+      "Dl",
+      "ML",
+      "Mid",
+      "Python",
+      "Remote"
+    ],
+    "search_tokens": [
+      "data scientist",
+      "dl",
+      "mid",
+      "ml",
+      "python",
+      "remote"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_018",
+    "slug": "backend-engineer-hyderabad-job_018",
+    "display_title": "Backend Engineer • Hyderabad • Mid",
+    "job_title": "Backend Engineer",
+    "location": "Hyderabad",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Express",
+      "Node.js"
+    ],
+    "tags": [
+      "Express",
+      "Hyderabad",
+      "Mid",
+      "Node.js"
+    ],
+    "search_tokens": [
+      "backend engineer",
+      "express",
+      "full‑time",
+      "hyderabad",
+      "mid",
+      "node.js"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_019",
+    "slug": "devops-engineer-bangalore-job_019",
+    "display_title": "Devops Engineer • Bangalore • Not Specified",
+    "job_title": "Devops Engineer",
+    "location": "Bangalore",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "tags": [
+      "AWS",
+      "Bangalore",
+      "Kubernetes",
+      "Not Specified"
+    ],
+    "search_tokens": [
+      "aws",
+      "bangalore",
+      "devops engineer",
+      "full‑time",
+      "kubernetes",
+      "not specified"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_020",
+    "slug": "frontend-developer-chennai-job_020",
+    "display_title": "Frontend Developer • Chennai • Junior",
+    "job_title": "Frontend Developer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "React",
+      "React.js"
+    ],
+    "tags": [
+      "Chennai",
+      "Junior",
+      "React",
+      "React.js"
+    ],
+    "search_tokens": [
+      "chennai",
+      "frontend developer",
+      "full‑time",
+      "junior",
+      "react",
+      "react.js"
+    ],
+    "method_used": "auto_verify_heuristic_update"
+  },
+  {
+    "job_id": "JOB_022",
+    "slug": "data-engineer-chennai-job_022",
+    "display_title": "Data Engineer • Chennai • Mid",
+    "job_title": "Data Engineer",
+    "location": "Chennai",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Hadoop",
+      "Spark"
+    ],
+    "tags": [
+      "Chennai",
+      "Hadoop",
+      "Mid",
+      "Spark"
+    ],
+    "search_tokens": [
+      "chennai",
+      "data engineer",
+      "full‑time",
+      "hadoop",
+      "mid",
+      "spark"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_023",
+    "slug": "python-developer-remote-job_023",
+    "display_title": "Python Developer • Remote • Junior",
+    "job_title": "Python Developer",
+    "location": "Remote",
+    "experience_years": 1,
+    "experience_level": "Junior",
+    "employment_type": "Remote",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Python"
+    ],
+    "tags": [
+      "Junior",
+      "Python",
+      "Remote"
+    ],
+    "search_tokens": [
+      "junior",
+      "python",
+      "python developer",
+      "remote"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_026",
+    "slug": "backend-engineer-remote-job_026",
+    "display_title": "Backend Engineer • Remote • Mid",
+    "job_title": "Backend Engineer",
+    "location": "Remote",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "Node.js"
+    ],
+    "tags": [
+      "Mid",
+      "Node.js",
+      "Remote"
+    ],
+    "search_tokens": [
+      "backend engineer",
+      "mid",
+      "node.js",
+      "remote"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_027",
+    "slug": "data-scientist-bangalore-job_027",
+    "display_title": "Data Scientist • Bangalore • Not Specified",
+    "job_title": "Data Scientist",
+    "location": "Bangalore",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "CSV",
+    "source_file": "shared\\jobs.csv",
+    "skills": [
+      "ML",
+      "Python"
+    ],
+    "tags": [
+      "Bangalore",
+      "ML",
+      "Not Specified",
+      "Python"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "data scientist",
+      "full‑time",
+      "ml",
+      "not specified",
+      "python"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_028",
+    "slug": "frontend-developer-job_028",
+    "display_title": "Frontend Developer • Not Specified",
+    "job_title": "Frontend Developer",
+    "location": null,
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "React"
+    ],
+    "tags": [
+      "Not Specified",
+      "React"
+    ],
+    "search_tokens": [
+      "frontend developer",
+      "full‑time",
+      "not specified",
+      "react"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_030",
+    "slug": "java-developer-chennai-job_030",
+    "display_title": "Java Developer • Chennai • Junior",
+    "job_title": "Java Developer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Java"
+    ],
+    "tags": [
+      "Chennai",
+      "Java",
+      "Junior"
+    ],
+    "search_tokens": [
+      "chennai",
+      "full‑time",
+      "java",
+      "java developer",
+      "junior"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_031",
+    "slug": "software-engineer-chennai-job_031",
+    "display_title": "Software Engineer • Chennai • Junior",
+    "job_title": "Software Engineer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "tags": [
+      "Chennai",
+      "Junior",
+      "Python",
+      "SQL"
+    ],
+    "search_tokens": [
+      "chennai",
+      "full‑time",
+      "junior",
+      "python",
+      "software engineer",
+      "sql"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_032",
+    "slug": "data-analyst-mumbai-job_032",
+    "display_title": "Data Analyst • Mumbai • Junior",
+    "job_title": "Data Analyst",
+    "location": "Mumbai",
+    "experience_years": 1,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Excel",
+      "Power Bi"
+    ],
+    "tags": [
+      "Excel",
+      "Junior",
+      "Mumbai",
+      "Power Bi"
+    ],
+    "search_tokens": [
+      "data analyst",
+      "excel",
+      "full‑time",
+      "junior",
+      "mumbai",
+      "power bi"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_033",
+    "slug": "backend-developer-remote-job_033",
+    "display_title": "Backend Developer • Remote • Mid",
+    "job_title": "Backend Developer",
+    "location": "Remote",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Node.js"
+    ],
+    "tags": [
+      "Mid",
+      "Node.js",
+      "Remote"
+    ],
+    "search_tokens": [
+      "backend developer",
+      "mid",
+      "node.js",
+      "remote"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_034",
+    "slug": "ml-engineer-bangalore-job_034",
+    "display_title": "Ml Engineer • Bangalore • Mid",
+    "job_title": "Ml Engineer",
+    "location": "Bangalore",
+    "experience_years": 4,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "NLP",
+      "Python"
+    ],
+    "tags": [
+      "Bangalore",
+      "Mid",
+      "NLP",
+      "Python"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "full‑time",
+      "mid",
+      "ml engineer",
+      "nlp",
+      "python"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_036",
+    "slug": "software-engineer-chennai-job_036",
+    "display_title": "Software Engineer • Chennai • Junior",
+    "job_title": "Software Engineer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Apis",
+      "Python"
+    ],
+    "tags": [
+      "Apis",
+      "Chennai",
+      "Junior",
+      "Python"
+    ],
+    "search_tokens": [
+      "apis",
+      "chennai",
+      "full‑time",
+      "junior",
+      "python",
+      "software engineer"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_037",
+    "slug": "backend-engineer-bangalore-job_037",
+    "display_title": "Backend Engineer • Bangalore • Not Specified",
+    "job_title": "Backend Engineer",
+    "location": "Bangalore",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Mongodb",
+      "Node.js"
+    ],
+    "tags": [
+      "Bangalore",
+      "Mongodb",
+      "Node.js",
+      "Not Specified"
+    ],
+    "search_tokens": [
+      "backend engineer",
+      "bangalore",
+      "full‑time",
+      "mongodb",
+      "node.js",
+      "not specified"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_039",
+    "slug": "frontend-developer-chennai-job_039",
+    "display_title": "Frontend Developer • Chennai • Junior",
+    "job_title": "Frontend Developer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "React"
+    ],
+    "tags": [
+      "Chennai",
+      "Junior",
+      "React"
+    ],
+    "search_tokens": [
+      "chennai",
+      "frontend developer",
+      "full‑time",
+      "junior",
+      "react"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_040",
+    "slug": "devops-engineer-pune-job_040",
+    "display_title": "Devops Engineer • Pune • Not Specified",
+    "job_title": "Devops Engineer",
+    "location": "Pune",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "tags": [
+      "AWS",
+      "Kubernetes",
+      "Not Specified",
+      "Pune"
+    ],
+    "search_tokens": [
+      "aws",
+      "devops engineer",
+      "full‑time",
+      "kubernetes",
+      "not specified",
+      "pune"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_043",
+    "slug": "frontend-developer-bangalore-job_043",
+    "display_title": "Frontend Developer • Bangalore • Junior",
+    "job_title": "Frontend Developer",
+    "location": "Bangalore",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "React"
+    ],
+    "tags": [
+      "Bangalore",
+      "Junior",
+      "React"
+    ],
+    "search_tokens": [
+      "bangalore",
+      "frontend developer",
+      "full‑time",
+      "junior",
+      "react"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_044",
+    "slug": "ml-engineer-remote-job_044",
+    "display_title": "Ml Engineer • Remote • Mid",
+    "job_title": "Ml Engineer",
+    "location": "Remote",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Remote",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "ML",
+      "Python",
+      "Tensorflow"
+    ],
+    "tags": [
+      "ML",
+      "Mid",
+      "Python",
+      "Remote",
+      "Tensorflow"
+    ],
+    "search_tokens": [
+      "mid",
+      "ml",
+      "ml engineer",
+      "python",
+      "remote",
+      "tensorflow"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_045",
+    "slug": "qa-automation-engineer-pune-job_045",
+    "display_title": "Qa Automation Engineer • Pune • Not Specified",
+    "job_title": "Qa Automation Engineer",
+    "location": "Pune",
+    "experience_years": null,
+    "experience_level": "Not Specified",
+    "employment_type": "Full‑time",
+    "source_type": "XML",
+    "source_file": "shared\\jobs_details.xml",
+    "skills": [
+      "Java",
+      "Selenium"
+    ],
+    "tags": [
+      "Java",
+      "Not Specified",
+      "Pune",
+      "Selenium"
+    ],
+    "search_tokens": [
+      "full‑time",
+      "java",
+      "not specified",
+      "pune",
+      "qa automation engineer",
+      "selenium"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_047",
+    "slug": "data-analyst-mumbai-job_047",
+    "display_title": "Data Analyst • Mumbai • Junior",
+    "job_title": "Data Analyst",
+    "location": "Mumbai",
+    "experience_years": 1,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Word Document",
+    "source_file": "shared\\Messy Job Listings data.docx",
+    "skills": [
+      "Excel",
+      "SQL",
+      "Tableau"
+    ],
+    "tags": [
+      "Excel",
+      "Junior",
+      "Mumbai",
+      "SQL",
+      "Tableau"
+    ],
+    "search_tokens": [
+      "data analyst",
+      "excel",
+      "full‑time",
+      "junior",
+      "mumbai",
+      "sql",
+      "tableau"
+    ],
+    "method_used": "auto_verify_parse_error_heuristic_update"
+  },
+  {
+    "job_id": "JOB_048",
+    "slug": "backend-developer-bangalore-job_048",
+    "display_title": "Backend Developer • Bangalore • Mid",
+    "job_title": "Backend Developer",
+    "location": "Bangalore",
+    "experience_years": 3,
+    "experience_level": "Mid",
+    "employment_type": "Full‑time",
+    "source_type": "Word Document",
+    "source_file": "shared\\Messy Job Listings data.docx",
+    "skills": [
+      "Node.js"
+    ],
+    "tags": [
+      "Bangalore",
+      "Mid",
+      "Node.js"
+    ],
+    "search_tokens": [
+      "backend developer",
+      "bangalore",
+      "full‑time",
+      "mid",
+      "node.js"
+    ],
+    "method_used": "auto_verify"
+  },
+  {
+    "job_id": "JOB_049",
+    "slug": "frontend-react-developer-chennai-job_049",
+    "display_title": "Frontend React Developer • Chennai • Junior",
+    "job_title": "Frontend React Developer",
+    "location": "Chennai",
+    "experience_years": 2,
+    "experience_level": "Junior",
+    "employment_type": "Full‑time",
+    "source_type": "Word Document",
+    "source_file": "shared\\Messy Job Listings data.docx",
+    "skills": [
+      "Html/Css",
+      "Javascript",
+      "React"
+    ],
+    "tags": [
+      "Chennai",
+      "Html/Css",
+      "Javascript",
+      "Junior",
+      "React"
+    ],
+    "search_tokens": [
+      "chennai",
+      "frontend react developer",
+      "full‑time",
+      "html/css",
+      "javascript",
+      "junior",
+      "react"
+    ],
+    "method_used": "auto_verify_heuristic_update"
+  }
+]
