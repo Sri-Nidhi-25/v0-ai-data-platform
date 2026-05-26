@@ -4,10 +4,9 @@ import { Button } from '@/components/ui/button'
 import { SimpleExample } from '@/components/sections/simple-example'
 import { ValueProps } from '@/components/sections/value-props'
 import { Pipeline } from '@/components/sections/pipeline'
-import { Analytics } from '@/components/sections/analytics'
 import { TrustIndicators } from '@/components/sections/trust-indicators'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Briefcase, Scale, Shield, Zap } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -58,8 +57,32 @@ export default function Home() {
       {/* Pipeline */}
       <Pipeline />
 
-      {/* Analytics */}
-      <Analytics />
+      {/* Who Is It For */}
+      <section className="py-20 px-4 max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold text-center mb-12">Who is it for?</h2>
+        <div className="grid md:grid-cols-4 gap-6">
+          <div className="p-6 rounded-lg border border-border/50 bg-card/30 hover:bg-card/50 transition-colors">
+            <Briefcase className="w-8 h-8 text-blue-500 mb-4" />
+            <h3 className="font-semibold text-lg mb-2">HR & Recruitment</h3>
+            <p className="text-sm text-muted-foreground">Extract candidate data from resumes, applications, and job postings instantly.</p>
+          </div>
+          <div className="p-6 rounded-lg border border-border/50 bg-card/30 hover:bg-card/50 transition-colors">
+            <Scale className="w-8 h-8 text-blue-500 mb-4" />
+            <h3 className="font-semibold text-lg mb-2">Legal</h3>
+            <p className="text-sm text-muted-foreground">Process contracts, documents, and agreements to extract key terms and clauses.</p>
+          </div>
+          <div className="p-6 rounded-lg border border-border/50 bg-card/30 hover:bg-card/50 transition-colors">
+            <Shield className="w-8 h-8 text-blue-500 mb-4" />
+            <h3 className="font-semibold text-lg mb-2">Finance</h3>
+            <p className="text-sm text-muted-foreground">Extract financial data from invoices, receipts, and statements for accounting.</p>
+          </div>
+          <div className="p-6 rounded-lg border border-border/50 bg-card/30 hover:bg-card/50 transition-colors">
+            <Zap className="w-8 h-8 text-blue-500 mb-4" />
+            <h3 className="font-semibold text-lg mb-2">E-Commerce</h3>
+            <p className="text-sm text-muted-foreground">Organize product data from suppliers, catalogs, and market listings.</p>
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 px-4 max-w-6xl mx-auto text-center">

@@ -49,84 +49,61 @@ export default function ContactPage() {
 
 
 
-      {/* Contact Form & Calendly */}
-      <section className="py-20 px-4 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Form */}
+      {/* Contact Form */}
+      <section className="py-20 px-4 max-w-2xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8">Send us a Message</h2>
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <h2 className="text-3xl font-bold mb-8">Send us a Message</h2>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Company</label>
-                <input
-                  type="text"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
-                  placeholder="Your company"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background resize-none"
-                  placeholder="Tell us about your data needs..."
-                />
-              </div>
-              <Button type="submit" size="lg" className="w-full">
-                {submitted ? 'Message Sent!' : 'Send Message'}
-              </Button>
-            </form>
+            <label className="block text-sm font-medium mb-2">Name</label>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
+              placeholder="Your name"
+            />
           </div>
-
-          {/* Cal.com Embed */}
           <div>
-            <h2 className="text-3xl font-bold mb-8">Schedule a Demo</h2>
-            <div className="bg-card border border-border/50 rounded-lg overflow-hidden">
-              <div style={{ width: '100%', height: '600px', overflow: 'hidden' }}>
-                <Cal 
-                  namespace="strucxio-demo-discovery-call"
-                  calLink="srinidhi25/strucxio-demo-discovery-call"
-                  style={{ width: '100%', height: '100%', overflow: 'auto' }}
-                  config={{ layout: 'month_view', useSlotsViewOnSmallScreen: true }}
-                />
-              </div>
-              <p className="text-xs text-muted-foreground p-4 text-center border-t border-border/50">
-                Typical demo is 30 minutes. You can cancel or reschedule anytime.
-              </p>
-            </div>
+            <label className="block text-sm font-medium mb-2">Email</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
+              placeholder="your@email.com"
+            />
           </div>
-        </div>
+          <div>
+            <label className="block text-sm font-medium mb-2">Company</label>
+            <input
+              type="text"
+              name="company"
+              value={formData.company}
+              onChange={handleChange}
+              className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background"
+              placeholder="Your company"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium mb-2">Message</label>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+              rows={5}
+              className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-background resize-none"
+              placeholder="Tell us about your data needs..."
+            />
+          </div>
+          <Button type="submit" size="lg" className="w-full">
+            {submitted ? 'Message Sent!' : 'Send Message'}
+          </Button>
+        </form>
       </section>
 
       {/* FAQ */}
@@ -167,6 +144,24 @@ export default function ContactPage() {
               <p className="mt-4 text-muted-foreground">{faq.a}</p>
             </details>
           ))}
+        </div>
+      </section>
+
+      {/* Schedule a Demo - Bottom Section */}
+      <section className="py-20 px-4 max-w-6xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8">Schedule a Demo</h2>
+        <div className="bg-card border border-border/50 rounded-lg overflow-hidden">
+          <div style={{ width: '100%', height: '600px', overflow: 'hidden' }}>
+            <Cal 
+              namespace="strucxio-demo-discovery-call"
+              calLink="srinidhi25/strucxio-demo-discovery-call"
+              style={{ width: '100%', height: '100%', overflow: 'auto' }}
+              config={{ layout: 'month_view', useSlotsViewOnSmallScreen: true }}
+            />
+          </div>
+          <p className="text-xs text-muted-foreground p-4 text-center border-t border-border/50">
+            Typical demo is 30 minutes. You can cancel or reschedule anytime.
+          </p>
         </div>
       </section>
     </main>

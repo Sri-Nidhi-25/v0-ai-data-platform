@@ -103,54 +103,9 @@ export default function DemoPage() {
         <FocusedShowcase />
       </section>
 
-      {/* Import Analytics at top */}
-
-      {/* Dataset Insights */}
+      {/* Analytics */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
-        <div className="mb-12">
-          <h2 className="text-4xl font-bold mb-4">Dataset Insights</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl">
-            What we discovered from our 50+ file processing batch.
-          </p>
-        </div>
         <Analytics />
-      </section>
-
-      {/* Use Cases */}
-      <section className="py-20 px-4 max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Common Use Cases</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          {[
-            {
-              title: 'HR & Recruitment',
-              items: ['Resume parsing', 'Job posting extraction', 'Skill identification', 'Location analysis']
-            },
-            {
-              title: 'Finance & Accounting',
-              items: ['Invoice processing', 'Receipt OCR', 'Contract data extraction', 'Expense categorization']
-            },
-            {
-              title: 'Legal & Compliance',
-              items: ['Document classification', 'Clause extraction', 'Entity recognition', 'Audit trail']
-            },
-            {
-              title: 'E-Commerce & Retail',
-              items: ['Product data entry', 'Inventory updates', 'Supplier information', 'Catalog management']
-            }
-          ].map((useCase) => (
-            <div key={useCase.title} className="p-6 border border-border/50 rounded-lg hover:shadow-lg transition-shadow">
-              <h3 className="text-lg font-semibold mb-4">{useCase.title}</h3>
-              <ul className="space-y-2">
-                {useCase.items.map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-muted-foreground">
-                    <span className="text-blue-500 font-bold mt-1">•</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
       </section>
 
 
