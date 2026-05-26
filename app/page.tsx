@@ -24,7 +24,7 @@ export default function Home() {
             Stop copying data manually.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground text-balance max-w-2xl mx-auto leading-relaxed">
-            Strucxio extracts structured data from any document—PDFs, images, spreadsheets—in seconds. 95% accuracy. Zero manual work.
+            Strucxio extracts structured data from any document—PDFs, images, spreadsheets—in seconds. Zero manual work.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

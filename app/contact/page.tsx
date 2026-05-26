@@ -2,8 +2,8 @@
 
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { useState } from 'react'
-import { Mail, Phone, MessageSquare } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import Cal, { getCalApi } from '@calcom/embed-react'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -13,6 +13,13 @@ export default function ContactPage() {
     message: ''
   })
   const [submitted, setSubmitted] = useState(false)
+
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi({ namespace: 'strucxio-demo-discovery-call' })
+      cal('ui', { hideEventTypeDetails: false, layout: 'month_view' })
+    })()
+  }, [])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -40,31 +47,7 @@ export default function ContactPage() {
         </p>
       </section>
 
-      {/* Contact Methods */}
-      <section className="py-20 px-4 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <Card className="p-8 text-center hover:shadow-lg transition-shadow">
-            <Mail className="w-8 h-8 text-blue-500 mx-auto mb-4" />
-            <h3 className="font-semibold mb-2">Email</h3>
-            <p className="text-muted-foreground mb-4">hello@strucxio.com</p>
-            <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
-          </Card>
 
-          <Card className="p-8 text-center hover:shadow-lg transition-shadow">
-            <Phone className="w-8 h-8 text-blue-500 mx-auto mb-4" />
-            <h3 className="font-semibold mb-2">Phone</h3>
-            <p className="text-muted-foreground mb-4">+1 (555) 123-4567</p>
-            <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM EST</p>
-          </Card>
-
-          <Card className="p-8 text-center hover:shadow-lg transition-shadow">
-            <MessageSquare className="w-8 h-8 text-blue-500 mx-auto mb-4" />
-            <h3 className="font-semibold mb-2">Live Chat</h3>
-            <p className="text-muted-foreground mb-4">Available on our site</p>
-            <p className="text-sm text-muted-foreground">Instant support during business hours</p>
-          </Card>
-        </div>
-      </section>
 
       {/* Contact Form & Calendly */}
       <section className="py-20 px-4 max-w-6xl mx-auto">
@@ -126,25 +109,20 @@ export default function ContactPage() {
             </form>
           </div>
 
-          {/* Calendly Embed */}
+          {/* Cal.com Embed */}
           <div>
             <h2 className="text-3xl font-bold mb-8">Schedule a Demo</h2>
-            <div className="bg-card border border-border/50 rounded-lg p-8 text-center">
-              <p className="text-muted-foreground mb-6">
-                Pick a time that works for you. Our team will walk you through Strucxio and answer any questions.
-              </p>
-              <div className="h-96 flex items-center justify-center border-2 border-dashed border-border/50 rounded-lg">
-                <div className="text-center">
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Calendly scheduling embed goes here
-                  </p>
-                  <Button variant="outline" size="sm">
-                    Open Calendly
-                  </Button>
-                </div>
+            <div className="bg-card border border-border/50 rounded-lg overflow-hidden">
+              <div style={{ width: '100%', height: '600px', overflow: 'hidden' }}>
+                <Cal 
+                  namespace="strucxio-demo-discovery-call"
+                  calLink="srinidhi25/strucxio-demo-discovery-call"
+                  style={{ width: '100%', height: '100%', overflow: 'auto' }}
+                  config={{ layout: 'month_view', useSlotsViewOnSmallScreen: true }}
+                />
               </div>
-              <p className="text-xs text-muted-foreground mt-6">
-                Powered by Calendly. Typical demo is 30 minutes.
+              <p className="text-xs text-muted-foreground p-4 text-center border-t border-border/50">
+                Typical demo is 30 minutes. You can cancel or reschedule anytime.
               </p>
             </div>
           </div>
@@ -170,14 +148,14 @@ export default function ContactPage() {
             },
             {
               q: 'Is my data secure?',
-              a: 'Yes. Data is encrypted in transit and at rest. We don&apos;t store documents longer than needed for processing. Enterprise security is available.'
+              a: 'Yes. Data is encrypted in transit and at rest. We do not store documents longer than needed for processing. Enterprise security is available.'
             },
             {
               q: 'Can I integrate with my existing tools?',
               a: 'Absolutely. Strucxio exports to JSON, CSV, and integrates via API. Works with databases, BI tools, and custom workflows.'
             },
             {
-              q: 'What&apos;s included in a demo?',
+              q: 'Whats included in a demo?',
               a: 'A 30-minute walkthrough covering how Strucxio works, real examples specific to your use case, Q&A, and pricing discussion.'
             }
           ].map((faq, idx) => (

@@ -1,15 +1,11 @@
 'use client'
 
 import { FocusedShowcase } from '@/components/sections/focused-showcase'
-import { Dashboard } from '@/components/sections/dashboard'
-import { type JobRecord } from '@/lib/data'
-import { useState } from 'react'
-import { DetailModal } from '@/components/sections/detail-modal'
+import { Analytics } from '@/components/sections/analytics'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 export default function DemoPage() {
-  const [selectedJob, setSelectedJob] = useState<JobRecord | null>(null)
 
   return (
     <main className="bg-background">
@@ -32,8 +28,8 @@ export default function DemoPage() {
             },
             {
               num: 2,
-              title: 'AI Analyzes Content',
-              desc: 'Our AI reads and interprets the data, handling OCR, formatting issues, and inconsistencies.'
+              title: 'Analyze Content',
+              desc: 'We read and interpret the data, handling OCR, formatting issues, and inconsistencies.'
             },
             {
               num: 3,
@@ -91,15 +87,33 @@ export default function DemoPage() {
         </div>
       </section>
 
+      {/* Real Examples Context */}
+      <section className="py-20 px-4 max-w-6xl mx-auto bg-green-50/50 dark:bg-green-950/20 rounded-lg border border-green-200/50">
+        <h2 className="text-3xl font-bold mb-4">Real Examples</h2>
+        <p className="text-lg text-muted-foreground mb-6">
+          To demonstrate how Strucxio works, we&apos;ve processed <strong>50+ files in different formats</strong> (PDFs, images, spreadsheets, documents) <strong>in less than 30 minutes</strong> with an overall accuracy of <strong>95%+</strong>.
+        </p>
+        <p className="text-lg text-muted-foreground">
+          Below are 3 real transformations using a <strong>job listing example</strong> to show you the complete pipeline. Click each to see the before/after and understand how messy data becomes clean, structured output.
+        </p>
+      </section>
+
       {/* Interactive Examples */}
       <section className="py-20 px-4 max-w-6xl mx-auto">
+        <FocusedShowcase />
+      </section>
+
+      {/* Import Analytics at top */}
+
+      {/* Dataset Insights */}
+      <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="mb-12">
-          <h2 className="text-4xl font-bold mb-4">Real Examples</h2>
-          <p className="text-xl text-muted-foreground">
-            Click to see three real transformations from different source types.
+          <h2 className="text-4xl font-bold mb-4">Dataset Insights</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl">
+            What we discovered from our 50+ file processing batch.
           </p>
         </div>
-        <FocusedShowcase />
+        <Analytics />
       </section>
 
       {/* Use Cases */}
@@ -139,18 +153,7 @@ export default function DemoPage() {
         </div>
       </section>
 
-      {/* Dashboard Preview */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12">Browse All Extracted Records</h2>
-        <Dashboard onSelectJob={setSelectedJob} />
-      </section>
 
-      {/* Detail Modal */}
-      <DetailModal
-        job={selectedJob}
-        isOpen={!!selectedJob}
-        onClose={() => setSelectedJob(null)}
-      />
 
       {/* CTA */}
       <section className="py-20 px-4 max-w-6xl mx-auto text-center">

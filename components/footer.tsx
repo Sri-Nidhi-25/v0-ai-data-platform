@@ -14,8 +14,11 @@ export function Footer() {
               <Zap className="w-5 h-5 text-blue-500" />
               <span>Strucxio</span>
             </div>
+            <p className="text-xs text-muted-foreground mb-2">
+              by accentuators
+            </p>
             <p className="text-sm text-muted-foreground">
-              Transform messy data into structured datasets with AI.
+              Transform messy data into structured datasets.
             </p>
           </div>
 
