@@ -5,10 +5,10 @@ import { ArrowRight, Zap } from 'lucide-react'
 
 interface HeroProps {
   onViewDemo: () => void
-  onUpload: () => void
+  onBookDemo: () => void
 }
 
-export function Hero({ onViewDemo, onUpload }: HeroProps) {
+export function Hero({ onViewDemo, onBookDemo }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Subtle background gradient */}
@@ -22,17 +22,17 @@ export function Hero({ onViewDemo, onUpload }: HeroProps) {
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border/50 bg-card/50 backdrop-blur-sm">
           <Zap className="w-4 h-4 text-blue-500" />
           <span className="text-sm font-medium text-muted-foreground">
-            AI-Powered Data Transformation
+            Questra Data Extractor
           </span>
         </div>
 
         {/* Main headline */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-            Turn messy business data into clean operational datasets.
+            Stop copying data manually. Let Strucxio turn any messy file into clean, searchable structured data.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground text-balance max-w-3xl mx-auto leading-relaxed">
-            Extract, normalize, and structure unorganized files with AI. Transform PDFs, scans, and documents into searchable, queryable data in seconds.
+            Upload any document (resumes, invoices, job listings, contracts). Strucxio&apos;s Questra data extractor extracts job titles, skills, locations, and experience – ready for your database or dashboard.
           </p>
         </div>
 
@@ -43,21 +43,21 @@ export function Hero({ onViewDemo, onUpload }: HeroProps) {
             onClick={onViewDemo}
             className="gap-2 h-12 px-8 text-base"
           >
-            View Demo <ArrowRight className="w-5 h-5" />
+            Watch Demo <ArrowRight className="w-5 h-5" />
           </Button>
           <Button
             size="lg"
             variant="outline"
-            onClick={onUpload}
+            onClick={onBookDemo}
             className="h-12 px-8 text-base"
           >
-            Upload Files
+            Book a Demo
           </Button>
         </div>
 
         {/* Subtext */}
         <p className="text-sm text-muted-foreground pt-4">
-          No credit card required. Start with sample data instantly.
+          Process 50+ files with 95% accuracy. Start instantly.
         </p>
       </div>
     </section>

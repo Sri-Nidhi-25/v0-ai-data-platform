@@ -2,10 +2,11 @@
 
 import { useState, useRef } from 'react'
 import { Hero } from '@/components/sections/hero'
-import { Showcase } from '@/components/sections/showcase'
+import { TrustIndicators } from '@/components/sections/trust-indicators'
+import { KeyBenefits } from '@/components/sections/key-benefits'
+import { VideoDemo } from '@/components/sections/video-demo'
+import { FocusedShowcase } from '@/components/sections/focused-showcase'
 import { Pipeline } from '@/components/sections/pipeline'
-import { AccuracyShowcase } from '@/components/sections/accuracy-showcase'
-import { TransformationGallery } from '@/components/sections/transformation-gallery'
 import { Analytics } from '@/components/sections/analytics'
 import { Dashboard } from '@/components/sections/dashboard'
 import { DetailModal } from '@/components/sections/detail-modal'
@@ -21,19 +22,27 @@ export default function Home() {
     dashboardRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const handleBookDemo = () => {
+    // Placeholder for Calendly integration
+    window.open('https://calendly.com', '_blank')
+  }
+
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <Hero onViewDemo={handleViewDemo} onUpload={() => setShowUpload(true)} />
+      <Hero onViewDemo={handleViewDemo} onBookDemo={handleBookDemo} />
 
-      {/* Showcase Section */}
-      <Showcase />
+      {/* Trust Indicators */}
+      <TrustIndicators />
 
-      {/* Accuracy & Trust Section */}
-      <AccuracyShowcase />
+      {/* Key Benefits */}
+      <KeyBenefits />
 
-      {/* Real Transformations Gallery */}
-      <TransformationGallery />
+      {/* Video Demo */}
+      <VideoDemo />
+
+      {/* Before/After Showcase */}
+      <FocusedShowcase />
 
       {/* Pipeline Section */}
       <Pipeline />
