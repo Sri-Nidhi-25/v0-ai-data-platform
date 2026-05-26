@@ -22,36 +22,28 @@ export function Hero({ onViewDemo, onBookDemo }: HeroProps) {
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border/50 bg-card/50 backdrop-blur-sm">
           <Zap className="w-4 h-4 text-blue-500" />
           <span className="text-sm font-medium text-muted-foreground">
-            Questra Data Extractor
+            AI-Powered Data Extraction
           </span>
         </div>
 
         {/* Main headline */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-            Stop copying data manually. Let Strucxio turn any messy file into clean, searchable structured data.
+            Stop copying data manually.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground text-balance max-w-3xl mx-auto leading-relaxed">
-            Upload any document (resumes, invoices, job listings, contracts). Strucxio&apos;s Questra data extractor extracts job titles, skills, locations, and experience – ready for your database or dashboard.
+            Strucxio extracts structured data from any document—PDFs, images, spreadsheets—in seconds. 95% accuracy. Ready to use immediately.
           </p>
         </div>
 
-        {/* CTA Buttons */}
+        {/* CTA Buttons - These props are no longer used, will remove this component */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Button
             size="lg"
-            onClick={onViewDemo}
             className="gap-2 h-12 px-8 text-base"
+            disabled
           >
-            Watch Demo <ArrowRight className="w-5 h-5" />
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            onClick={onBookDemo}
-            className="h-12 px-8 text-base"
-          >
-            Book a Demo
+            Component deprecated <ArrowRight className="w-5 h-5" />
           </Button>
         </div>
 
