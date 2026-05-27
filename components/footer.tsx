@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Zap } from 'lucide-react'
+import { Logo } from '@/components/logo'
 
 export function Footer() {
   return (
@@ -11,7 +11,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-3">
             <div className="flex items-center gap-2 font-bold text-lg">
-              <Zap className="w-5 h-5 text-blue-500" />
+              <Logo className="w-5 h-5" />
               <span>Strucxio</span>
             </div>
             <p className="text-xs text-muted-foreground">

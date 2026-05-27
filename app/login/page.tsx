@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { useAuth } from '@/hooks/use-auth'
 import { useRouter } from 'next/navigation'
-import { Zap, AlertCircle } from 'lucide-react'
+import { Logo } from '@/components/logo'
+import { AlertCircle } from 'lucide-react'
 
 export default function LoginPage() {
   const router = useRouter()
@@ -39,7 +40,7 @@ export default function LoginPage() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center">
-          <Zap className="w-12 h-12 text-blue-500 mx-auto mb-4 animate-pulse" />
+          <Logo className="w-12 h-12 mx-auto mb-4 animate-pulse" />
           <p className="text-muted-foreground">Loading...</p>
         </div>
       </div>
@@ -52,7 +53,7 @@ export default function LoginPage() {
         <div className="bg-background border border-border/50 rounded-lg shadow-lg p-8">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <Zap className="w-6 h-6 text-blue-500" />
+              <Logo className="w-8 h-8" />
               <h1 className="text-2xl font-bold">Strucxio</h1>
             </div>
             <p className="text-muted-foreground">Dashboard</p>
@@ -100,18 +101,8 @@ export default function LoginPage() {
             </Button>
           </form>
 
-          <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900 rounded-lg">
-            <p className="text-xs font-semibold text-blue-900 dark:text-blue-300 mb-2">Demo Credentials</p>
-            <p className="text-xs text-blue-800 dark:text-blue-400 mb-1">
-              <span className="font-medium">Username:</span> admin
-            </p>
-            <p className="text-xs text-blue-800 dark:text-blue-400">
-              <span className="font-medium">Password:</span> Questra
-            </p>
-          </div>
-
           <p className="text-xs text-muted-foreground text-center mt-6">
-            This is a demo dashboard. Data is static and for demonstration purposes only.
+            Enter your credentials to access the dashboard
           </p>
         </div>
       </div>

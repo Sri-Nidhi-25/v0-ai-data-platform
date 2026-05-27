@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Zap } from 'lucide-react'
+import { Logo } from '@/components/logo'
 
 export function Header() {
   return (
@@ -11,7 +11,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl hover:opacity-80 transition-opacity">
-            <Zap className="w-6 h-6 text-blue-500" />
+            <Logo className="w-6 h-6" />
             <span>Strucxio</span>
           </Link>
 
@@ -38,8 +38,13 @@ export function Header() {
                 Sign In
               </Button>
             </Link>
+            <Link href="/login">
+              <Button size="sm">
+                Login
+              </Button>
+            </Link>
             <Link href="/contact">
-              <Button size="sm" className="gap-2">
+              <Button variant="outline" size="sm">
                 Book a Demo
               </Button>
             </Link>
