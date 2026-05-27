@@ -84,6 +84,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Dashboard Access Section */}
+      <section className="py-20 px-4 max-w-6xl mx-auto">
+        <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-200/50 dark:border-blue-900/50 rounded-lg p-8 md:p-12 text-center">
+          <h2 className="text-3xl font-bold mb-4">Already have an account?</h2>
+          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Access the Strucxio dashboard to manage your batches, view analytics, and extract data at scale.
+          </p>
+          <Link href="/login">
+            <Button size="lg" className="gap-2">
+              Access Dashboard <ArrowRight className="w-5 h-5" />
+            </Button>
+          </Link>
+          <p className="text-sm text-muted-foreground mt-4">Demo credentials: admin / Questra</p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-4 max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Ready to transform your data?</h2>

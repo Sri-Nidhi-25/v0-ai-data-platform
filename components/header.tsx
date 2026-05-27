@@ -31,12 +31,19 @@ export function Header() {
             </Link>
           </nav>
 
-          {/* CTA Button */}
-          <Link href="/contact">
-            <Button size="sm" className="gap-2">
-              Book a Demo
-            </Button>
-          </Link>
+          {/* CTA Buttons */}
+          <div className="flex items-center gap-2">
+            <Link href="/login">
+              <Button variant="outline" size="sm">
+                Sign In
+              </Button>
+            </Link>
+            <Link href="/contact">
+              <Button size="sm" className="gap-2">
+                Book a Demo
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
