@@ -1,7 +1,7 @@
 'use client'
 
 import { Card } from '@/components/ui/card'
-import { Copy, CheckCircle2, Zap } from 'lucide-react'
+import { Copy, CircleCheck as CheckCircle2, Zap } from 'lucide-react'
 import { useState } from 'react'
 
 export function SimpleExample() {
@@ -28,9 +28,9 @@ export function SimpleExample() {
   return (
     <section className="py-20 px-4 max-w-6xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold mb-4">See It In Action</h2>
+        <h2 className="text-4xl font-bold mb-4">Watch data transform in real-time</h2>
         <p className="text-xl text-muted-foreground">
-          A glimpse of how Strucxio transforms real data
+          See how messy, unstructured documents become clean, structured records
         </p>
       </div>
 
